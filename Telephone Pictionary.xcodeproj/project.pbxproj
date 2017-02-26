@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1B322360B2AD55BF35FBA7AF /* Pods_Telephone_Pictionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 657A4D0AAD14D97821B72BA8 /* Pods_Telephone_Pictionary.framework */; };
+		2E1FF2A71E62B82300F031D8 /* WaitingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1FF2A61E62B82300F031D8 /* WaitingViewController.swift */; };
+		2E1FF2A91E62B91B00F031D8 /* InitialCaptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1FF2A81E62B91B00F031D8 /* InitialCaptionViewController.swift */; };
+		2E1FF2AB1E62C44400F031D8 /* CaptionWithImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1FF2AA1E62C44400F031D8 /* CaptionWithImageViewController.swift */; };
 		2E20D7B51E62491B00A3EA0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20D7B41E62491B00A3EA0A /* AppDelegate.swift */; };
 		2E20D7BA1E62491B00A3EA0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E20D7B81E62491B00A3EA0A /* Main.storyboard */; };
 		2E20D7BC1E62491B00A3EA0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E20D7BB1E62491B00A3EA0A /* Assets.xcassets */; };
@@ -22,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E1FF2A61E62B82300F031D8 /* WaitingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaitingViewController.swift; sourceTree = "<group>"; };
+		2E1FF2A81E62B91B00F031D8 /* InitialCaptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialCaptionViewController.swift; sourceTree = "<group>"; };
+		2E1FF2AA1E62C44400F031D8 /* CaptionWithImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptionWithImageViewController.swift; sourceTree = "<group>"; };
 		2E20D7B11E62491B00A3EA0A /* Telephone Pictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Telephone Pictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E20D7B41E62491B00A3EA0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E20D7B91E62491B00A3EA0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -90,9 +96,12 @@
 				2E20D7CC1E6258FF00A3EA0A /* InitialViewController.swift */,
 				2E20D7CD1E6258FF00A3EA0A /* NavigationController.swift */,
 				2E20D7D01E625BD700A3EA0A /* HostViewController.swift */,
-				2E20D7D21E62614A00A3EA0A /* PlayersViewController.swift */,
 				2E20D7D41E6268E200A3EA0A /* JoinGameViewController.swift */,
+				2E20D7D21E62614A00A3EA0A /* PlayersViewController.swift */,
+				2E1FF2A81E62B91B00F031D8 /* InitialCaptionViewController.swift */,
 				2E20D8031E627AAF00A3EA0A /* DrawViewController.swift */,
+				2E1FF2A61E62B82300F031D8 /* WaitingViewController.swift */,
+				2E1FF2AA1E62C44400F031D8 /* CaptionWithImageViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -238,8 +247,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E1FF2AB1E62C44400F031D8 /* CaptionWithImageViewController.swift in Sources */,
+				2E1FF2A91E62B91B00F031D8 /* InitialCaptionViewController.swift in Sources */,
 				2E20D7CE1E6258FF00A3EA0A /* InitialViewController.swift in Sources */,
 				2E20D7D11E625BD700A3EA0A /* HostViewController.swift in Sources */,
+				2E1FF2A71E62B82300F031D8 /* WaitingViewController.swift in Sources */,
 				2E20D8041E627AAF00A3EA0A /* DrawViewController.swift in Sources */,
 				2E20D7CF1E6258FF00A3EA0A /* NavigationController.swift in Sources */,
 				2E20D7C71E62496A00A3EA0A /* ApplicationState.swift in Sources */,

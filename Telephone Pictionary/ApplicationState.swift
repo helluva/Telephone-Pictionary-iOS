@@ -47,13 +47,12 @@ class ApplicationState : NSObject, StreamDelegate {
             if let inputStream = aStream as? InputStream {
                 while inputStream.hasBytesAvailable {
                     
-                    var buffer = [UInt8](repeating: 0, count: 10240)
-                    let numberOfBytes = inputStream.read(&buffer, maxLength: 10240)
+                    var buffer = [UInt8](repeating: 0, count: 102400)
+                    let numberOfBytes = inputStream.read(&buffer, maxLength: 102400)
                     
                     let response = (NSString(bytes: &buffer, length: numberOfBytes, encoding: String.Encoding.utf8.rawValue) ?? "") as String
                     
-                    let lines = response.components(separatedBy: "\r\n").filter { !$0.isEmpty }
-                    lines.forEach(self.receiveResponse)
+                    receiveResponse(possibleResponse: response)
                     
                 }
             }
@@ -65,14 +64,43 @@ class ApplicationState : NSObject, StreamDelegate {
     var callbacks = [String : (String) -> ()]()
     var listeners = [String : [String : (String) -> ()]]()
     
-    func receiveResponse(response: String) {
-        print("<<<<<< \"\(response)\"")
+    var partialResponse: String?
+    
+    func receiveResponse(possibleResponse: String) {
+        if !possibleResponse.contains("\n") {
+            self.partialResponse = (self.partialResponse ?? "") + possibleResponse
+            return
+        }
         
+        //if the possible response contained a newline
+        var response = possibleResponse
+        if let partialResponse = self.partialResponse {
+            response = partialResponse + possibleResponse
+            self.partialResponse = nil
+        }
+        
+        let responseComponents = response.components(separatedBy: "\r\n").filter { !$0.isEmpty }
+        
+        if responseComponents.count == 1 {
+            response = responseComponents.first!
+        } else {
+            responseComponents.forEach { self.receiveResponse(possibleResponse: $0 + "\r\n") }
+        }
+        
+        if response.lengthOfBytes(using: .utf8) > 100 {
+            print(">>>>>> \"\(response.components(separatedBy: "/")[0])/<binary data>\"")
+        } else {
+            print(">>>>>> \"\(response)\"")
+        }
+        
+        
+        //process the response
         let splits = response.components(separatedBy: "/")
-        if splits.count != 2 { return }
+        
+        if splits.count < 1 { return }
         
         let id = splits[0]
-        let body = splits[1]
+        let body = (splits.count == 1) ? "" : splits[1]
         
         if let callback = self.callbacks[id] {
             callback(body)
@@ -90,9 +118,9 @@ class ApplicationState : NSObject, StreamDelegate {
     
     @discardableResult func sendMessage(_ message: String) -> String {
         let id = "\(Date().timeIntervalSince1970)"
-        let messageWithId = "\(id)/\(message)"
+        let messageWithId = "\(id)/\(message)\r\n"
         
-        print(">>>>>> \(messageWithId)")
+        //print("<<<<<< \(messageWithId)")
         
         let data = messageWithId.data(using: .utf8)!
         _ = data.withUnsafeBytes { bytes in

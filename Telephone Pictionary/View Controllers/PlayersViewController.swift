@@ -26,6 +26,7 @@ class PlayersViewController : UIViewController, UITableViewDelegate, UITableView
     //MARK: - View Setup
     
     var playerIsHost: Bool = false
+    var gameStated = false
     @IBOutlet weak var waitingForHost: UIView!
     
     override func viewWillAppear(_ animated: Bool) {
@@ -34,11 +35,22 @@ class PlayersViewController : UIViewController, UITableViewDelegate, UITableView
         if playerIsHost {
             waitingForHost.isHidden = true
         }
+        
+        ApplicationState.state.registerListener(forNodeMethod: "gameStarted", named: "playersViewListener") { response in
+            self.gameStated = true
+            InitialCaptionViewController.present(in: self.navigationController)
+        }
     }
     
     func loadedListOfPlayers(response: String) {
         self.players = response.components(separatedBy: ",")
         self.tableView.reloadData()
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        if !gameStated {
+            ApplicationState.state.sendMessage("playerLeave")
+        }
     }
     
     
@@ -66,6 +78,7 @@ class PlayersViewController : UIViewController, UITableViewDelegate, UITableView
     
     @IBAction func startGame(_ sender: Any) {
         print("Starting game")
+        ApplicationState.state.sendMessage("startGame")
     }
     
     
