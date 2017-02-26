@@ -16,6 +16,7 @@
 		2E20D7CF1E6258FF00A3EA0A /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20D7CD1E6258FF00A3EA0A /* NavigationController.swift */; };
 		2E20D7D11E625BD700A3EA0A /* HostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20D7D01E625BD700A3EA0A /* HostViewController.swift */; };
 		2E20D7D31E62614A00A3EA0A /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20D7D21E62614A00A3EA0A /* PlayersViewController.swift */; };
+		2E20D7D51E6268E200A3EA0A /* JoinGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20D7D41E6268E200A3EA0A /* JoinGameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		2E20D7CD1E6258FF00A3EA0A /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		2E20D7D01E625BD700A3EA0A /* HostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostViewController.swift; sourceTree = "<group>"; };
 		2E20D7D21E62614A00A3EA0A /* PlayersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
+		2E20D7D41E6268E200A3EA0A /* JoinGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinGameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				2E20D7CD1E6258FF00A3EA0A /* NavigationController.swift */,
 				2E20D7D01E625BD700A3EA0A /* HostViewController.swift */,
 				2E20D7D21E62614A00A3EA0A /* PlayersViewController.swift */,
+				2E20D7D41E6268E200A3EA0A /* JoinGameViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				2E20D7C71E62496A00A3EA0A /* ApplicationState.swift in Sources */,
 				2E20D7B51E62491B00A3EA0A /* AppDelegate.swift in Sources */,
 				2E20D7D31E62614A00A3EA0A /* PlayersViewController.swift in Sources */,
+				2E20D7D51E6268E200A3EA0A /* JoinGameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

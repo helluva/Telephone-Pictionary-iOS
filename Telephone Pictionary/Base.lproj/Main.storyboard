@@ -85,10 +85,10 @@
             </objects>
             <point key="canvasLocation" x="972" y="37.331334332833585"/>
         </scene>
-        <!--View Controller-->
+        <!--Join a Game-->
         <scene sceneID="Uge-6G-Gxa">
             <objects>
-                <viewController id="OjV-e2-7bs" sceneMemberID="viewController">
+                <viewController id="OjV-e2-7bs" customClass="JoinGameViewController" customModule="Telephone_Pictionary" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NRO-HH-pE2"/>
                         <viewControllerLayoutGuide type="bottom" id="WQM-0G-2ae"/>
@@ -96,8 +96,54 @@
                     <view key="view" contentMode="scaleToFill" id="uxf-U6-AR0">
                         <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2qs-ko-ngf">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="game" textLabel="zgq-Id-bpa" style="IBUITableViewCellStyleDefault" id="0gV-pv-3T4">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0gV-pv-3T4" id="hzc-v2-JAC">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zgq-Id-bpa">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="OjV-e2-7bs" id="1tt-Fb-Eoz"/>
+                                    <outlet property="delegate" destination="OjV-e2-7bs" id="biG-xk-KGY"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="WQM-0G-2ae" firstAttribute="top" secondItem="2qs-ko-ngf" secondAttribute="bottom" id="8fN-Ea-JkZ"/>
+                            <constraint firstItem="2qs-ko-ngf" firstAttribute="leading" secondItem="uxf-U6-AR0" secondAttribute="leading" id="cwZ-Qu-fK1"/>
+                            <constraint firstAttribute="trailing" secondItem="2qs-ko-ngf" secondAttribute="trailing" id="p6f-KA-Im2"/>
+                            <constraint firstItem="2qs-ko-ngf" firstAttribute="top" secondItem="NRO-HH-pE2" secondAttribute="bottom" id="phk-n6-XPn"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Join a Game" id="ZqR-22-D3z">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="zPH-dE-dRs"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="Zib-Ei-YSD">
+                            <connections>
+                                <action selector="loadGames" destination="OjV-e2-7bs" id="fLA-N9-8Mf"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="2qs-ko-ngf" id="MbJ-08-Jf9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gKF-3A-yRn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -211,6 +257,9 @@
                             <constraint firstItem="nLI-mt-Tom" firstAttribute="top" secondItem="YPg-bg-5oO" secondAttribute="bottom" id="P2C-9b-gZo"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Title" id="isl-QM-k0g">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="Jea-9I-luG"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="contentView" destination="nLI-mt-Tom" id="6Zv-bv-z5m"/>
                         <outlet property="contentViewBottom" destination="0v4-Pg-keB" id="kE8-QF-klA"/>
