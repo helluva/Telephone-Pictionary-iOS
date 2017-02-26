@@ -1,0 +1,6 @@
+framework module Pods_Telephone_Pictionary {
+  umbrella header "Pods-Telephone Pictionary-umbrella.h"
+
+  export *
+  module * { export * }
+}

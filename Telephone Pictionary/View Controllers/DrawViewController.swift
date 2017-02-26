@@ -7,26 +7,14 @@
 //
 
 import UIKit
+import ACEDrawingView
 
-class DrawViewController : UIViewController, JotViewControllerDelegate {
+class DrawViewController : UIViewController, ACEDrawingViewDelegate {
     
-    var jot: JotViewController!
+    @IBOutlet weak var drawingView: ACEDrawingView!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        self.jot = JotViewController()
-        self.jot.delegate = self
-        
-        self.addChildViewController(self.jot)
-        self.view.addSubview(self.jot.view)
-        self.jot.didMove(toParentViewController: self)
-        self.jot.view.frame = self.view.frame
-        
-        self.jot.state = .drawing
-        self.jot.drawingConstantStrokeWidth = true
-        self.jot.drawingStrokeWidth = 4.0
-        
+    override func viewDidAppear(_ animated: Bool) {
+        drawingView.delegate = self
     }
     
 }

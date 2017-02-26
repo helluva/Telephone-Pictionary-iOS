@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		155AA915560F2FBF256B3DA8FC29C7D7 /* ACEDrawingToolState.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DE30FE11BF514F1CA36EE46760847C /* ACEDrawingToolState.m */; };
+		1D10F1EEF2C00682930A180B26A153C7 /* sticker_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24755F34236BB80665C1DA40A873C464 /* sticker_close@3x.png */; };
+		2D59379BA08D42FA01BD8EF9FFBD0F66 /* sticker_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0566F13AB60349B8D266FEE4DE5A0C48 /* sticker_close@2x.png */; };
+		2F5D5E5B61A1A4143E8284B6C2D9DF55 /* ACEDraggableText.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ADBFC59BE80287C784B3746196277AE8 /* ACEDraggableText.bundle */; };
+		2FF96F882D70BBB3CA42A32272A321CB /* ACEDrawingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9D053D2853B428C619F0C6F001244E /* ACEDrawingView-dummy.m */; };
+		3B9D4B932F4F6EB8633CBACD9C7E463F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		45F0BF635C8D76A2A4750884CD372D3F /* ACEDrawingView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFDC901DC7E4FA2BDDFE35F55F51A5A7 /* ACEDrawingView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47F3EE4E72DF4B7E42EA988CC90D0865 /* sticker_resize@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D92AB59E0CA05450B21BB5D2AD9A767D /* sticker_resize@2x.png */; };
+		5112F92FB0AEF4EAF141F6A76F314B94 /* ACEDrawingTools.m in Sources */ = {isa = PBXBuildFile; fileRef = F20B3F6E20D8F40E82E9454726B22359 /* ACEDrawingTools.m */; };
+		58660B82E0C45A3B873C27284F3FABA8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */; };
+		5E41FE784D02D6D33C04756F8405373D /* ACEDrawingToolState.h in Headers */ = {isa = PBXBuildFile; fileRef = 4789BE1F4AC6E43BA9EC2D513107E17B /* ACEDrawingToolState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76AB949008DBC330A112901C29A94FBF /* sticker_resize.png in Resources */ = {isa = PBXBuildFile; fileRef = C6F29E69D02096BDA6D0A697E100BB73 /* sticker_resize.png */; };
+		76B1B7A20F87C8AB44C52E1A93569E93 /* sticker_resize@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF5899BA5C54B4541C6D97315FBF30B /* sticker_resize@3x.png */; };
+		79D86A001532168826C9B7859DD8A7DE /* ACEDrawingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E03D38B49B8D8974C6A95ED2AA409B4 /* ACEDrawingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D5A6207082960B9772E99FDF180A7AC /* ACEDrawingLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9FA7E0BD856BEE70E5BD40D30A8CD0 /* ACEDrawingLabelView.m */; };
+		85EED20FF26472D8262F063417B48094 /* Pods-Telephone Pictionary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2457D08FBE3C7C19EB7E0AFA2801D822 /* Pods-Telephone Pictionary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCFD39C16AD7580271B5783568AF1B85 /* sticker_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DFDB1D8B1E3AED29F7AA1605C2C10E9 /* sticker_close.png */; };
+		C450618BD583CA3C2BFCC4AA5485D32D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		CB6A309C14D97625AC1E75C778CBDCA3 /* ACEDrawingTools.h in Headers */ = {isa = PBXBuildFile; fileRef = FA07E9EF0B494243C28AB72C6558C1E9 /* ACEDrawingTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA0703FAC44F1D5D8E9951C9DBF9ABC1 /* ACEDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD935F6651EE11E6A92C3922199FE00 /* ACEDrawingView.m */; };
+		DD1B864995FC78B95725E5F56936A71A /* Pods-Telephone Pictionary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8F909F1361D7D577C33FE7461E6660 /* Pods-Telephone Pictionary-dummy.m */; };
+		DEB7E7D898003BD198F7C1715BFD5F1B /* ACEDrawingLabelView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AFBF31AEF96905E6AD020B8C54E7D84 /* ACEDrawingLabelView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1626E9651F10B0F9B67AB0BA13EE805C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46E15656C90425D2C106D2D3627A94E9;
+			remoteInfo = ACEDrawingView;
+		};
+		CE11EDF761D842CF1B2E52EA40F5CDC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F0A3B28518DCB2F5E6382A9419C47AF;
+			remoteInfo = "ACEDrawingView-ACEDraggableText";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0566F13AB60349B8D266FEE4DE5A0C48 /* sticker_close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "sticker_close@2x.png"; path = "ACEDrawingView/ACEDraggableText/sticker_close@2x.png"; sourceTree = "<group>"; };
+		0D9FA7E0BD856BEE70E5BD40D30A8CD0 /* ACEDrawingLabelView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ACEDrawingLabelView.m; path = ACEDrawingView/ACEDrawingLabelView.m; sourceTree = "<group>"; };
+		0EF61FD2791E3BA176FC61BEB3762969 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		110CB807C76DBB256C5058CF1AC239DB /* Pods-Telephone Pictionary-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Telephone Pictionary-resources.sh"; sourceTree = "<group>"; };
+		1AFBF31AEF96905E6AD020B8C54E7D84 /* ACEDrawingLabelView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACEDrawingLabelView.h; path = ACEDrawingView/ACEDrawingLabelView.h; sourceTree = "<group>"; };
+		22DE30FE11BF514F1CA36EE46760847C /* ACEDrawingToolState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ACEDrawingToolState.m; path = ACEDrawingView/ACEDrawingToolState.m; sourceTree = "<group>"; };
+		2457D08FBE3C7C19EB7E0AFA2801D822 /* Pods-Telephone Pictionary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Telephone Pictionary-umbrella.h"; sourceTree = "<group>"; };
+		24755F34236BB80665C1DA40A873C464 /* sticker_close@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "sticker_close@3x.png"; path = "ACEDrawingView/ACEDraggableText/sticker_close@3x.png"; sourceTree = "<group>"; };
+		2B450599F43F64ED06137E38196AC1E2 /* Pods-Telephone Pictionary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Telephone Pictionary.debug.xcconfig"; sourceTree = "<group>"; };
+		2B9D053D2853B428C619F0C6F001244E /* ACEDrawingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ACEDrawingView-dummy.m"; sourceTree = "<group>"; };
+		2DF6FDAC138933DAB652BB9440566B43 /* Pods-Telephone Pictionary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Telephone Pictionary.modulemap"; sourceTree = "<group>"; };
+		3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4789BE1F4AC6E43BA9EC2D513107E17B /* ACEDrawingToolState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACEDrawingToolState.h; path = ACEDrawingView/ACEDrawingToolState.h; sourceTree = "<group>"; };
+		4EA1C2A97B5FA6A1001B3F8154BA73B8 /* ACEDrawingView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ACEDrawingView.xcconfig; sourceTree = "<group>"; };
+		5B3E2E59F962DA410F79550E8F722BA6 /* ResourceBundle-ACEDraggableText-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ACEDraggableText-Info.plist"; sourceTree = "<group>"; };
+		5E81874C4B3C0D894F0A7ED5FF88AA5F /* Pods-Telephone Pictionary-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Telephone Pictionary-acknowledgements.plist"; sourceTree = "<group>"; };
+		6E03D38B49B8D8974C6A95ED2AA409B4 /* ACEDrawingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACEDrawingView.h; path = ACEDrawingView/ACEDrawingView.h; sourceTree = "<group>"; };
+		78C5A7A0CB07F5163E62C8DE4374C83D /* ACEDrawingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ACEDrawingView.framework; path = ACEDrawingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DFDB1D8B1E3AED29F7AA1605C2C10E9 /* sticker_close.png */ = {isa = PBXFileReference; includeInIndex = 1; name = sticker_close.png; path = ACEDrawingView/ACEDraggableText/sticker_close.png; sourceTree = "<group>"; };
+		86510AACEFD1ECB492AEEAF5C5857AD3 /* Pods-Telephone Pictionary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Telephone Pictionary.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BF5899BA5C54B4541C6D97315FBF30B /* sticker_resize@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "sticker_resize@3x.png"; path = "ACEDrawingView/ACEDraggableText/sticker_resize@3x.png"; sourceTree = "<group>"; };
+		A01BFA90700A6D7B0B16987710957AA0 /* Pods_Telephone_Pictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Telephone_Pictionary.framework; path = "Pods-Telephone Pictionary.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F5895E7B83BD299C720EDD9A29048D /* ACEDrawingView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ACEDrawingView.modulemap; sourceTree = "<group>"; };
+		ADBFC59BE80287C784B3746196277AE8 /* ACEDraggableText.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ACEDraggableText.bundle; path = ACEDraggableText.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1368EA2B36B92F119BB653931918D0E /* Pods-Telephone Pictionary-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Telephone Pictionary-frameworks.sh"; sourceTree = "<group>"; };
+		BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		BFDC901DC7E4FA2BDDFE35F55F51A5A7 /* ACEDrawingView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ACEDrawingView-umbrella.h"; sourceTree = "<group>"; };
+		C6F29E69D02096BDA6D0A697E100BB73 /* sticker_resize.png */ = {isa = PBXFileReference; includeInIndex = 1; name = sticker_resize.png; path = ACEDrawingView/ACEDraggableText/sticker_resize.png; sourceTree = "<group>"; };
+		D92AB59E0CA05450B21BB5D2AD9A767D /* sticker_resize@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "sticker_resize@2x.png"; path = "ACEDrawingView/ACEDraggableText/sticker_resize@2x.png"; sourceTree = "<group>"; };
+		EA8F909F1361D7D577C33FE7461E6660 /* Pods-Telephone Pictionary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Telephone Pictionary-dummy.m"; sourceTree = "<group>"; };
+		EAC9F5A59578C6D72F1C8875D1EC30D2 /* ACEDrawingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ACEDrawingView-prefix.pch"; sourceTree = "<group>"; };
+		EDD935F6651EE11E6A92C3922199FE00 /* ACEDrawingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ACEDrawingView.m; path = ACEDrawingView/ACEDrawingView.m; sourceTree = "<group>"; };
+		F20B3F6E20D8F40E82E9454726B22359 /* ACEDrawingTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ACEDrawingTools.m; path = ACEDrawingView/ACEDrawingTools.m; sourceTree = "<group>"; };
+		F93A138B6BD65F48ED724EAADEC41894 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA07E9EF0B494243C28AB72C6558C1E9 /* ACEDrawingTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACEDrawingTools.h; path = ACEDrawingView/ACEDrawingTools.h; sourceTree = "<group>"; };
+		FC3DAEB254E1C2E5919DCEF2B3AD4AF5 /* Pods-Telephone Pictionary-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Telephone Pictionary-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1355D76E7DA7A85E677B9D5BE348C65F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B9D4B932F4F6EB8633CBACD9C7E463F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34893B2DD50F3A307C1500B82B0745E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C450618BD583CA3C2BFCC4AA5485D32D /* Foundation.framework in Frameworks */,
+				58660B82E0C45A3B873C27284F3FABA8 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88BB708DFA8EFCAA63D8A32FC68C82C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08278FC3A2A41404142D2AF758A6E0F4 /* Pods-Telephone Pictionary */ = {
+			isa = PBXGroup;
+			children = (
+				F93A138B6BD65F48ED724EAADEC41894 /* Info.plist */,
+				2DF6FDAC138933DAB652BB9440566B43 /* Pods-Telephone Pictionary.modulemap */,
+				FC3DAEB254E1C2E5919DCEF2B3AD4AF5 /* Pods-Telephone Pictionary-acknowledgements.markdown */,
+				5E81874C4B3C0D894F0A7ED5FF88AA5F /* Pods-Telephone Pictionary-acknowledgements.plist */,
+				EA8F909F1361D7D577C33FE7461E6660 /* Pods-Telephone Pictionary-dummy.m */,
+				B1368EA2B36B92F119BB653931918D0E /* Pods-Telephone Pictionary-frameworks.sh */,
+				110CB807C76DBB256C5058CF1AC239DB /* Pods-Telephone Pictionary-resources.sh */,
+				2457D08FBE3C7C19EB7E0AFA2801D822 /* Pods-Telephone Pictionary-umbrella.h */,
+				2B450599F43F64ED06137E38196AC1E2 /* Pods-Telephone Pictionary.debug.xcconfig */,
+				86510AACEFD1ECB492AEEAF5C5857AD3 /* Pods-Telephone Pictionary.release.xcconfig */,
+			);
+			name = "Pods-Telephone Pictionary";
+			path = "Target Support Files/Pods-Telephone Pictionary";
+			sourceTree = "<group>";
+		};
+		38E959887D460F2D8409137C83B8626C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AAC6ABFBA9E64C90F6CD4EC88773BFBE /* ACEDrawingView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7AB6F27FF3606F9360547F8F1977A63 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E05502C932FEE21971DEF31246FCC1B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				08278FC3A2A41404142D2AF758A6E0F4 /* Pods-Telephone Pictionary */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				38E959887D460F2D8409137C83B8626C /* Pods */,
+				F2D99B0156CA73248DBE7700A0ECB1CD /* Products */,
+				4E05502C932FEE21971DEF31246FCC1B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AAC6ABFBA9E64C90F6CD4EC88773BFBE /* ACEDrawingView */ = {
+			isa = PBXGroup;
+			children = (
+				1AFBF31AEF96905E6AD020B8C54E7D84 /* ACEDrawingLabelView.h */,
+				0D9FA7E0BD856BEE70E5BD40D30A8CD0 /* ACEDrawingLabelView.m */,
+				FA07E9EF0B494243C28AB72C6558C1E9 /* ACEDrawingTools.h */,
+				F20B3F6E20D8F40E82E9454726B22359 /* ACEDrawingTools.m */,
+				4789BE1F4AC6E43BA9EC2D513107E17B /* ACEDrawingToolState.h */,
+				22DE30FE11BF514F1CA36EE46760847C /* ACEDrawingToolState.m */,
+				6E03D38B49B8D8974C6A95ED2AA409B4 /* ACEDrawingView.h */,
+				EDD935F6651EE11E6A92C3922199FE00 /* ACEDrawingView.m */,
+				AE2CBDF3298283F624373A662ED3C9E3 /* Resources */,
+				C44229DC7E4823F7643922B3D7F97D7F /* Support Files */,
+			);
+			name = ACEDrawingView;
+			path = ACEDrawingView;
+			sourceTree = "<group>";
+		};
+		AE2CBDF3298283F624373A662ED3C9E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7DFDB1D8B1E3AED29F7AA1605C2C10E9 /* sticker_close.png */,
+				0566F13AB60349B8D266FEE4DE5A0C48 /* sticker_close@2x.png */,
+				24755F34236BB80665C1DA40A873C464 /* sticker_close@3x.png */,
+				C6F29E69D02096BDA6D0A697E100BB73 /* sticker_resize.png */,
+				D92AB59E0CA05450B21BB5D2AD9A767D /* sticker_resize@2x.png */,
+				9BF5899BA5C54B4541C6D97315FBF30B /* sticker_resize@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C44229DC7E4823F7643922B3D7F97D7F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9F5895E7B83BD299C720EDD9A29048D /* ACEDrawingView.modulemap */,
+				4EA1C2A97B5FA6A1001B3F8154BA73B8 /* ACEDrawingView.xcconfig */,
+				2B9D053D2853B428C619F0C6F001244E /* ACEDrawingView-dummy.m */,
+				EAC9F5A59578C6D72F1C8875D1EC30D2 /* ACEDrawingView-prefix.pch */,
+				BFDC901DC7E4FA2BDDFE35F55F51A5A7 /* ACEDrawingView-umbrella.h */,
+				0EF61FD2791E3BA176FC61BEB3762969 /* Info.plist */,
+				5B3E2E59F962DA410F79550E8F722BA6 /* ResourceBundle-ACEDraggableText-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ACEDrawingView";
+			sourceTree = "<group>";
+		};
+		C7AB6F27FF3606F9360547F8F1977A63 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */,
+				BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F2D99B0156CA73248DBE7700A0ECB1CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADBFC59BE80287C784B3746196277AE8 /* ACEDraggableText.bundle */,
+				78C5A7A0CB07F5163E62C8DE4374C83D /* ACEDrawingView.framework */,
+				A01BFA90700A6D7B0B16987710957AA0 /* Pods_Telephone_Pictionary.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6BA7DDF003E82342051171EB8D3FB48A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85EED20FF26472D8262F063417B48094 /* Pods-Telephone Pictionary-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92C5FEC7BBDE779B3975969E28091B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB7E7D898003BD198F7C1715BFD5F1B /* ACEDrawingLabelView.h in Headers */,
+				CB6A309C14D97625AC1E75C778CBDCA3 /* ACEDrawingTools.h in Headers */,
+				5E41FE784D02D6D33C04756F8405373D /* ACEDrawingToolState.h in Headers */,
+				45F0BF635C8D76A2A4750884CD372D3F /* ACEDrawingView-umbrella.h in Headers */,
+				79D86A001532168826C9B7859DD8A7DE /* ACEDrawingView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		46E15656C90425D2C106D2D3627A94E9 /* ACEDrawingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF7467D027442E3120DB1B200D6CF913 /* Build configuration list for PBXNativeTarget "ACEDrawingView" */;
+			buildPhases = (
+				111876EDA81C61972FB377101C04B1E2 /* Sources */,
+				34893B2DD50F3A307C1500B82B0745E5 /* Frameworks */,
+				EAFA4EB38862D5CB3235FCA8CF564057 /* Resources */,
+				E92C5FEC7BBDE779B3975969E28091B1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				092D255C828DFF27AA051039B2E2D87E /* PBXTargetDependency */,
+			);
+			name = ACEDrawingView;
+			productName = ACEDrawingView;
+			productReference = 78C5A7A0CB07F5163E62C8DE4374C83D /* ACEDrawingView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4F0A3B28518DCB2F5E6382A9419C47AF /* ACEDrawingView-ACEDraggableText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 720C6BCAB3BF1BF1284BE05C6E23F980 /* Build configuration list for PBXNativeTarget "ACEDrawingView-ACEDraggableText" */;
+			buildPhases = (
+				2E4E81266D37F54C615D2DA551B6666F /* Sources */,
+				88BB708DFA8EFCAA63D8A32FC68C82C5 /* Frameworks */,
+				567246BDA968AF9004A9E3A43076D4F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ACEDrawingView-ACEDraggableText";
+			productName = "ACEDrawingView-ACEDraggableText";
+			productReference = ADBFC59BE80287C784B3746196277AE8 /* ACEDraggableText.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		93F639AF266A1FF1D2A5D831B5EDC321 /* Pods-Telephone Pictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EAC5BB6FF9577D460ABAC05CAE2F844 /* Build configuration list for PBXNativeTarget "Pods-Telephone Pictionary" */;
+			buildPhases = (
+				9428A549D82BE471147BB2A190CDC731 /* Sources */,
+				1355D76E7DA7A85E677B9D5BE348C65F /* Frameworks */,
+				6BA7DDF003E82342051171EB8D3FB48A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F909D17B671E34114107D0771F05A8F2 /* PBXTargetDependency */,
+			);
+			name = "Pods-Telephone Pictionary";
+			productName = "Pods-Telephone Pictionary";
+			productReference = A01BFA90700A6D7B0B16987710957AA0 /* Pods_Telephone_Pictionary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F2D99B0156CA73248DBE7700A0ECB1CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46E15656C90425D2C106D2D3627A94E9 /* ACEDrawingView */,
+				4F0A3B28518DCB2F5E6382A9419C47AF /* ACEDrawingView-ACEDraggableText */,
+				93F639AF266A1FF1D2A5D831B5EDC321 /* Pods-Telephone Pictionary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		567246BDA968AF9004A9E3A43076D4F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCFD39C16AD7580271B5783568AF1B85 /* sticker_close.png in Resources */,
+				2D59379BA08D42FA01BD8EF9FFBD0F66 /* sticker_close@2x.png in Resources */,
+				1D10F1EEF2C00682930A180B26A153C7 /* sticker_close@3x.png in Resources */,
+				76AB949008DBC330A112901C29A94FBF /* sticker_resize.png in Resources */,
+				47F3EE4E72DF4B7E42EA988CC90D0865 /* sticker_resize@2x.png in Resources */,
+				76B1B7A20F87C8AB44C52E1A93569E93 /* sticker_resize@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAFA4EB38862D5CB3235FCA8CF564057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5D5E5B61A1A4143E8284B6C2D9DF55 /* ACEDraggableText.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		111876EDA81C61972FB377101C04B1E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D5A6207082960B9772E99FDF180A7AC /* ACEDrawingLabelView.m in Sources */,
+				5112F92FB0AEF4EAF141F6A76F314B94 /* ACEDrawingTools.m in Sources */,
+				155AA915560F2FBF256B3DA8FC29C7D7 /* ACEDrawingToolState.m in Sources */,
+				2FF96F882D70BBB3CA42A32272A321CB /* ACEDrawingView-dummy.m in Sources */,
+				DA0703FAC44F1D5D8E9951C9DBF9ABC1 /* ACEDrawingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E4E81266D37F54C615D2DA551B6666F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9428A549D82BE471147BB2A190CDC731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1B864995FC78B95725E5F56936A71A /* Pods-Telephone Pictionary-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		092D255C828DFF27AA051039B2E2D87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ACEDrawingView-ACEDraggableText";
+			target = 4F0A3B28518DCB2F5E6382A9419C47AF /* ACEDrawingView-ACEDraggableText */;
+			targetProxy = CE11EDF761D842CF1B2E52EA40F5CDC4 /* PBXContainerItemProxy */;
+		};
+		F909D17B671E34114107D0771F05A8F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ACEDrawingView;
+			target = 46E15656C90425D2C106D2D3627A94E9 /* ACEDrawingView */;
+			targetProxy = 1626E9651F10B0F9B67AB0BA13EE805C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3E71C24A5B60818A689EC83920486229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EA1C2A97B5FA6A1001B3F8154BA73B8 /* ACEDrawingView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ACEDrawingView/ACEDrawingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ACEDrawingView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ACEDrawingView/ACEDrawingView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ACEDrawingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D34F11803F1006B51CFBEC9DFF20E23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86510AACEFD1ECB492AEEAF5C5857AD3 /* Pods-Telephone Pictionary.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Telephone Pictionary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Telephone Pictionary/Pods-Telephone Pictionary.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Telephone_Pictionary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9B586E917EF9D79CC6355CF43D614738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B450599F43F64ED06137E38196AC1E2 /* Pods-Telephone Pictionary.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Telephone Pictionary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Telephone Pictionary/Pods-Telephone Pictionary.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Telephone_Pictionary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C819188E525615A51D17FD43A1671DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EA1C2A97B5FA6A1001B3F8154BA73B8 /* ACEDrawingView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ACEDrawingView/ACEDrawingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ACEDrawingView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ACEDrawingView/ACEDrawingView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ACEDrawingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E5DA4FE70C4AFD30DBD087BD9584606D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EA1C2A97B5FA6A1001B3F8154BA73B8 /* ACEDrawingView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ACEDrawingView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/ACEDrawingView/ResourceBundle-ACEDraggableText-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ACEDraggableText;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		FDFF6ACBD14E8D80C106237E65D1B1FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EA1C2A97B5FA6A1001B3F8154BA73B8 /* ACEDrawingView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ACEDrawingView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/ACEDrawingView/ResourceBundle-ACEDraggableText-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ACEDraggableText;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EAC5BB6FF9577D460ABAC05CAE2F844 /* Build configuration list for PBXNativeTarget "Pods-Telephone Pictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B586E917EF9D79CC6355CF43D614738 /* Debug */,
+				6D34F11803F1006B51CFBEC9DFF20E23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		720C6BCAB3BF1BF1284BE05C6E23F980 /* Build configuration list for PBXNativeTarget "ACEDrawingView-ACEDraggableText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDFF6ACBD14E8D80C106237E65D1B1FD /* Debug */,
+				E5DA4FE70C4AFD30DBD087BD9584606D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF7467D027442E3120DB1B200D6CF913 /* Build configuration list for PBXNativeTarget "ACEDrawingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E71C24A5B60818A689EC83920486229 /* Debug */,
+				C819188E525615A51D17FD43A1671DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

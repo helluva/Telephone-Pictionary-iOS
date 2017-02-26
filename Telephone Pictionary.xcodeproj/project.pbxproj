@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B322360B2AD55BF35FBA7AF /* Pods_Telephone_Pictionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 657A4D0AAD14D97821B72BA8 /* Pods_Telephone_Pictionary.framework */; };
 		2E20D7B51E62491B00A3EA0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20D7B41E62491B00A3EA0A /* AppDelegate.swift */; };
 		2E20D7BA1E62491B00A3EA0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E20D7B81E62491B00A3EA0A /* Main.storyboard */; };
 		2E20D7BC1E62491B00A3EA0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E20D7BB1E62491B00A3EA0A /* Assets.xcassets */; };
@@ -18,25 +19,6 @@
 		2E20D7D31E62614A00A3EA0A /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20D7D21E62614A00A3EA0A /* PlayersViewController.swift */; };
 		2E20D7D51E6268E200A3EA0A /* JoinGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20D7D41E6268E200A3EA0A /* JoinGameViewController.swift */; };
 		2E20D8041E627AAF00A3EA0A /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20D8031E627AAF00A3EA0A /* DrawViewController.swift */; };
-		2E5A8B651E628FAE00DF5D58 /* JotDrawingContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5A8B561E628FAE00DF5D58 /* JotDrawingContainer.m */; };
-		2E5A8B661E628FAE00DF5D58 /* JotDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5A8B581E628FAE00DF5D58 /* JotDrawView.m */; };
-		2E5A8B671E628FAE00DF5D58 /* JotTextEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5A8B5A1E628FAE00DF5D58 /* JotTextEditView.m */; };
-		2E5A8B681E628FAE00DF5D58 /* JotTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5A8B5C1E628FAE00DF5D58 /* JotTextView.m */; };
-		2E5A8B691E628FAE00DF5D58 /* JotTouchBezier.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5A8B5E1E628FAE00DF5D58 /* JotTouchBezier.m */; };
-		2E5A8B6A1E628FAE00DF5D58 /* JotTouchPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5A8B601E628FAE00DF5D58 /* JotTouchPoint.m */; };
-		2E5A8B6B1E628FAE00DF5D58 /* JotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5A8B621E628FAE00DF5D58 /* JotViewController.m */; };
-		2E5A8B6C1E628FAE00DF5D58 /* UIImage+Jot.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5A8B641E628FAE00DF5D58 /* UIImage+Jot.m */; };
-		2E5A8BAE1E62909400DF5D58 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E5A8B941E62909300DF5D58 /* Info.plist */; };
-		2E5A8BAF1E62909400DF5D58 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5A8B961E62909300DF5D58 /* MASCompositeConstraint.m */; };
-		2E5A8BB01E62909400DF5D58 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5A8B991E62909300DF5D58 /* MASConstraint.m */; };
-		2E5A8BB11E62909400DF5D58 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5A8B9B1E62909300DF5D58 /* MASConstraintMaker.m */; };
-		2E5A8BB21E62909400DF5D58 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5A8B9D1E62909400DF5D58 /* MASLayoutConstraint.m */; };
-		2E5A8BB31E62909400DF5D58 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5A8BA11E62909400DF5D58 /* MASViewAttribute.m */; };
-		2E5A8BB41E62909400DF5D58 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5A8BA31E62909400DF5D58 /* MASViewConstraint.m */; };
-		2E5A8BB51E62909400DF5D58 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5A8BA51E62909400DF5D58 /* NSArray+MASAdditions.m */; };
-		2E5A8BB61E62909400DF5D58 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5A8BA81E62909400DF5D58 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		2E5A8BB71E62909400DF5D58 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5A8BAA1E62909400DF5D58 /* View+MASAdditions.m */; };
-		2E5A8BB81E62909400DF5D58 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5A8BAD1E62909400DF5D58 /* ViewController+MASAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,49 +35,9 @@
 		2E20D7D21E62614A00A3EA0A /* PlayersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
 		2E20D7D41E6268E200A3EA0A /* JoinGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinGameViewController.swift; sourceTree = "<group>"; };
 		2E20D8031E627AAF00A3EA0A /* DrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
-		2E5A8B541E628FAE00DF5D58 /* jot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jot.h; sourceTree = "<group>"; };
-		2E5A8B551E628FAE00DF5D58 /* JotDrawingContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JotDrawingContainer.h; sourceTree = "<group>"; };
-		2E5A8B561E628FAE00DF5D58 /* JotDrawingContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JotDrawingContainer.m; sourceTree = "<group>"; };
-		2E5A8B571E628FAE00DF5D58 /* JotDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JotDrawView.h; sourceTree = "<group>"; };
-		2E5A8B581E628FAE00DF5D58 /* JotDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JotDrawView.m; sourceTree = "<group>"; };
-		2E5A8B591E628FAE00DF5D58 /* JotTextEditView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JotTextEditView.h; sourceTree = "<group>"; };
-		2E5A8B5A1E628FAE00DF5D58 /* JotTextEditView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JotTextEditView.m; sourceTree = "<group>"; };
-		2E5A8B5B1E628FAE00DF5D58 /* JotTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JotTextView.h; sourceTree = "<group>"; };
-		2E5A8B5C1E628FAE00DF5D58 /* JotTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JotTextView.m; sourceTree = "<group>"; };
-		2E5A8B5D1E628FAE00DF5D58 /* JotTouchBezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JotTouchBezier.h; sourceTree = "<group>"; };
-		2E5A8B5E1E628FAE00DF5D58 /* JotTouchBezier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JotTouchBezier.m; sourceTree = "<group>"; };
-		2E5A8B5F1E628FAE00DF5D58 /* JotTouchPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JotTouchPoint.h; sourceTree = "<group>"; };
-		2E5A8B601E628FAE00DF5D58 /* JotTouchPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JotTouchPoint.m; sourceTree = "<group>"; };
-		2E5A8B611E628FAE00DF5D58 /* JotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JotViewController.h; sourceTree = "<group>"; };
-		2E5A8B621E628FAE00DF5D58 /* JotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JotViewController.m; sourceTree = "<group>"; };
-		2E5A8B631E628FAE00DF5D58 /* UIImage+Jot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Jot.h"; sourceTree = "<group>"; };
-		2E5A8B641E628FAE00DF5D58 /* UIImage+Jot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Jot.m"; sourceTree = "<group>"; };
-		2E5A8B941E62909300DF5D58 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E5A8B951E62909300DF5D58 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
-		2E5A8B961E62909300DF5D58 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
-		2E5A8B971E62909300DF5D58 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
-		2E5A8B981E62909300DF5D58 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
-		2E5A8B991E62909300DF5D58 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
-		2E5A8B9A1E62909300DF5D58 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
-		2E5A8B9B1E62909300DF5D58 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
-		2E5A8B9C1E62909300DF5D58 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
-		2E5A8B9D1E62909400DF5D58 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
-		2E5A8B9E1E62909400DF5D58 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
-		2E5A8B9F1E62909400DF5D58 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
-		2E5A8BA01E62909400DF5D58 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
-		2E5A8BA11E62909400DF5D58 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
-		2E5A8BA21E62909400DF5D58 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
-		2E5A8BA31E62909400DF5D58 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
-		2E5A8BA41E62909400DF5D58 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		2E5A8BA51E62909400DF5D58 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		2E5A8BA61E62909400DF5D58 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		2E5A8BA71E62909400DF5D58 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		2E5A8BA81E62909400DF5D58 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		2E5A8BA91E62909400DF5D58 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
-		2E5A8BAA1E62909400DF5D58 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
-		2E5A8BAB1E62909400DF5D58 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		2E5A8BAC1E62909400DF5D58 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		2E5A8BAD1E62909400DF5D58 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		5D80615105289CE75992E7BB /* Pods-Telephone Pictionary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telephone Pictionary.release.xcconfig"; path = "Pods/Target Support Files/Pods-Telephone Pictionary/Pods-Telephone Pictionary.release.xcconfig"; sourceTree = "<group>"; };
+		657A4D0AAD14D97821B72BA8 /* Pods_Telephone_Pictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Telephone_Pictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		968351DCA72771736571CC1E /* Pods-Telephone Pictionary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telephone Pictionary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Telephone Pictionary/Pods-Telephone Pictionary.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B322360B2AD55BF35FBA7AF /* Pods_Telephone_Pictionary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +57,8 @@
 			children = (
 				2E20D7B31E62491B00A3EA0A /* Telephone Pictionary */,
 				2E20D7B21E62491B00A3EA0A /* Products */,
+				C8647B6C99CCEE55ADB05034 /* Pods */,
+				A1CD98843B79D2AC05EE7CC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,8 +80,6 @@
 				2E20D7BB1E62491B00A3EA0A /* Assets.xcassets */,
 				2E20D7BD1E62491B00A3EA0A /* LaunchScreen.storyboard */,
 				2E20D7C01E62491B00A3EA0A /* Info.plist */,
-				2E5A8B531E628FAE00DF5D58 /* jot */,
-				2E5A8B931E62909300DF5D58 /* Masonry */,
 			);
 			path = "Telephone Pictionary";
 			sourceTree = "<group>";
@@ -154,61 +97,21 @@
 			path = "View Controllers";
 			sourceTree = "<group>";
 		};
-		2E5A8B531E628FAE00DF5D58 /* jot */ = {
+		A1CD98843B79D2AC05EE7CC8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2E5A8B541E628FAE00DF5D58 /* jot.h */,
-				2E5A8B551E628FAE00DF5D58 /* JotDrawingContainer.h */,
-				2E5A8B561E628FAE00DF5D58 /* JotDrawingContainer.m */,
-				2E5A8B571E628FAE00DF5D58 /* JotDrawView.h */,
-				2E5A8B581E628FAE00DF5D58 /* JotDrawView.m */,
-				2E5A8B591E628FAE00DF5D58 /* JotTextEditView.h */,
-				2E5A8B5A1E628FAE00DF5D58 /* JotTextEditView.m */,
-				2E5A8B5B1E628FAE00DF5D58 /* JotTextView.h */,
-				2E5A8B5C1E628FAE00DF5D58 /* JotTextView.m */,
-				2E5A8B5D1E628FAE00DF5D58 /* JotTouchBezier.h */,
-				2E5A8B5E1E628FAE00DF5D58 /* JotTouchBezier.m */,
-				2E5A8B5F1E628FAE00DF5D58 /* JotTouchPoint.h */,
-				2E5A8B601E628FAE00DF5D58 /* JotTouchPoint.m */,
-				2E5A8B611E628FAE00DF5D58 /* JotViewController.h */,
-				2E5A8B621E628FAE00DF5D58 /* JotViewController.m */,
-				2E5A8B631E628FAE00DF5D58 /* UIImage+Jot.h */,
-				2E5A8B641E628FAE00DF5D58 /* UIImage+Jot.m */,
+				657A4D0AAD14D97821B72BA8 /* Pods_Telephone_Pictionary.framework */,
 			);
-			path = jot;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2E5A8B931E62909300DF5D58 /* Masonry */ = {
+		C8647B6C99CCEE55ADB05034 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2E5A8B941E62909300DF5D58 /* Info.plist */,
-				2E5A8B951E62909300DF5D58 /* MASCompositeConstraint.h */,
-				2E5A8B961E62909300DF5D58 /* MASCompositeConstraint.m */,
-				2E5A8B971E62909300DF5D58 /* MASConstraint+Private.h */,
-				2E5A8B981E62909300DF5D58 /* MASConstraint.h */,
-				2E5A8B991E62909300DF5D58 /* MASConstraint.m */,
-				2E5A8B9A1E62909300DF5D58 /* MASConstraintMaker.h */,
-				2E5A8B9B1E62909300DF5D58 /* MASConstraintMaker.m */,
-				2E5A8B9C1E62909300DF5D58 /* MASLayoutConstraint.h */,
-				2E5A8B9D1E62909400DF5D58 /* MASLayoutConstraint.m */,
-				2E5A8B9E1E62909400DF5D58 /* Masonry.h */,
-				2E5A8B9F1E62909400DF5D58 /* MASUtilities.h */,
-				2E5A8BA01E62909400DF5D58 /* MASViewAttribute.h */,
-				2E5A8BA11E62909400DF5D58 /* MASViewAttribute.m */,
-				2E5A8BA21E62909400DF5D58 /* MASViewConstraint.h */,
-				2E5A8BA31E62909400DF5D58 /* MASViewConstraint.m */,
-				2E5A8BA41E62909400DF5D58 /* NSArray+MASAdditions.h */,
-				2E5A8BA51E62909400DF5D58 /* NSArray+MASAdditions.m */,
-				2E5A8BA61E62909400DF5D58 /* NSArray+MASShorthandAdditions.h */,
-				2E5A8BA71E62909400DF5D58 /* NSLayoutConstraint+MASDebugAdditions.h */,
-				2E5A8BA81E62909400DF5D58 /* NSLayoutConstraint+MASDebugAdditions.m */,
-				2E5A8BA91E62909400DF5D58 /* View+MASAdditions.h */,
-				2E5A8BAA1E62909400DF5D58 /* View+MASAdditions.m */,
-				2E5A8BAB1E62909400DF5D58 /* View+MASShorthandAdditions.h */,
-				2E5A8BAC1E62909400DF5D58 /* ViewController+MASAdditions.h */,
-				2E5A8BAD1E62909400DF5D58 /* ViewController+MASAdditions.m */,
+				968351DCA72771736571CC1E /* Pods-Telephone Pictionary.debug.xcconfig */,
+				5D80615105289CE75992E7BB /* Pods-Telephone Pictionary.release.xcconfig */,
 			);
-			path = Masonry;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,9 +121,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E20D7C31E62491B00A3EA0A /* Build configuration list for PBXNativeTarget "Telephone Pictionary" */;
 			buildPhases = (
+				FD3BEE638E5CC8DC9FCF515B /* [CP] Check Pods Manifest.lock */,
 				2E20D7AD1E62491A00A3EA0A /* Sources */,
 				2E20D7AE1E62491A00A3EA0A /* Frameworks */,
 				2E20D7AF1E62491A00A3EA0A /* Resources */,
+				A04BEA13FCC770A2F1FD5D9C /* [CP] Embed Pods Frameworks */,
+				41EB7408D6629B9527B79A5F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,7 +177,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E5A8BAE1E62909400DF5D58 /* Info.plist in Resources */,
 				2E20D7BF1E62491B00A3EA0A /* LaunchScreen.storyboard in Resources */,
 				2E20D7BC1E62491B00A3EA0A /* Assets.xcassets in Resources */,
 				2E20D7BA1E62491B00A3EA0A /* Main.storyboard in Resources */,
@@ -280,37 +185,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		41EB7408D6629B9527B79A5F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Telephone Pictionary/Pods-Telephone Pictionary-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A04BEA13FCC770A2F1FD5D9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Telephone Pictionary/Pods-Telephone Pictionary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD3BEE638E5CC8DC9FCF515B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2E20D7AD1E62491A00A3EA0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2E20D7CE1E6258FF00A3EA0A /* InitialViewController.swift in Sources */,
-				2E5A8BB41E62909400DF5D58 /* MASViewConstraint.m in Sources */,
-				2E5A8B6C1E628FAE00DF5D58 /* UIImage+Jot.m in Sources */,
-				2E5A8BB01E62909400DF5D58 /* MASConstraint.m in Sources */,
-				2E5A8B681E628FAE00DF5D58 /* JotTextView.m in Sources */,
 				2E20D7D11E625BD700A3EA0A /* HostViewController.swift in Sources */,
 				2E20D8041E627AAF00A3EA0A /* DrawViewController.swift in Sources */,
 				2E20D7CF1E6258FF00A3EA0A /* NavigationController.swift in Sources */,
-				2E5A8BB81E62909400DF5D58 /* ViewController+MASAdditions.m in Sources */,
-				2E5A8BB71E62909400DF5D58 /* View+MASAdditions.m in Sources */,
-				2E5A8B661E628FAE00DF5D58 /* JotDrawView.m in Sources */,
-				2E5A8BB31E62909400DF5D58 /* MASViewAttribute.m in Sources */,
-				2E5A8B6A1E628FAE00DF5D58 /* JotTouchPoint.m in Sources */,
 				2E20D7C71E62496A00A3EA0A /* ApplicationState.swift in Sources */,
-				2E5A8B671E628FAE00DF5D58 /* JotTextEditView.m in Sources */,
-				2E5A8BAF1E62909400DF5D58 /* MASCompositeConstraint.m in Sources */,
-				2E5A8BB21E62909400DF5D58 /* MASLayoutConstraint.m in Sources */,
 				2E20D7B51E62491B00A3EA0A /* AppDelegate.swift in Sources */,
 				2E20D7D31E62614A00A3EA0A /* PlayersViewController.swift in Sources */,
-				2E5A8BB11E62909400DF5D58 /* MASConstraintMaker.m in Sources */,
-				2E5A8BB51E62909400DF5D58 /* NSArray+MASAdditions.m in Sources */,
-				2E5A8B6B1E628FAE00DF5D58 /* JotViewController.m in Sources */,
-				2E5A8B691E628FAE00DF5D58 /* JotTouchBezier.m in Sources */,
-				2E5A8B651E628FAE00DF5D58 /* JotDrawingContainer.m in Sources */,
 				2E20D7D51E6268E200A3EA0A /* JoinGameViewController.swift in Sources */,
-				2E5A8BB61E62909400DF5D58 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +366,7 @@
 		};
 		2E20D7C41E62491B00A3EA0A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 968351DCA72771736571CC1E /* Pods-Telephone Pictionary.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FZ89A5SZ7C;
@@ -438,13 +374,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.helluva.Telephone-Pictionary";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Telephone Pictionary/jot/jot.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		2E20D7C51E62491B00A3EA0A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D80615105289CE75992E7BB /* Pods-Telephone Pictionary.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FZ89A5SZ7C;
@@ -452,7 +389,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.helluva.Telephone-Pictionary";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Telephone Pictionary/jot/jot.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
