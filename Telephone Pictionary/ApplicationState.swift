@@ -50,10 +50,10 @@ class ApplicationState : NSObject, StreamDelegate {
                     var buffer = [UInt8](repeating: 0, count: 10240)
                     let numberOfBytes = inputStream.read(&buffer, maxLength: 10240)
                     
-                    var response = (NSString(bytes: &buffer, length: numberOfBytes, encoding: String.Encoding.utf8.rawValue) ?? "") as String
-                    response = response.replacingOccurrences(of: "\r\n", with: "")
-
-                    self.receiveResponse(response: response)
+                    let response = (NSString(bytes: &buffer, length: numberOfBytes, encoding: String.Encoding.utf8.rawValue) ?? "") as String
+                    
+                    let lines = response.components(separatedBy: "\r\n").filter { !$0.isEmpty }
+                    lines.forEach(self.receiveResponse)
                     
                 }
             }
@@ -66,7 +66,7 @@ class ApplicationState : NSObject, StreamDelegate {
     var listeners = [String : [String : (String) -> ()]]()
     
     func receiveResponse(response: String) {
-        print("Received \"\(response)\"")
+        print("<<<<<< \"\(response)\"")
         
         let splits = response.components(separatedBy: "/")
         if splits.count != 2 { return }
@@ -92,7 +92,7 @@ class ApplicationState : NSObject, StreamDelegate {
         let id = "\(Date().timeIntervalSince1970)"
         let messageWithId = "\(id)/\(message)"
         
-        print("Send \(messageWithId)")
+        print(">>>>>> \(messageWithId)")
         
         let data = messageWithId.data(using: .utf8)!
         _ = data.withUnsafeBytes { bytes in

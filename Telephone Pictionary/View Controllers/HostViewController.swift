@@ -52,10 +52,10 @@ class HostViewController : UIViewController {
         self.gameNameField.resignFirstResponder()
         self.gameNameField.resignFirstResponder()
         
-        let userName = hostNameField.text!
+        let hostName = hostNameField.text!
         let gameName = gameNameField.text!
         
-        if userName.isEmpty {
+        if hostName.isEmpty {
             let alert = UIAlertController(title: "Please add your name", message: "This is how other players will know who you are.", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
             self.present(alert, animated: true, completion: nil)
@@ -69,7 +69,7 @@ class HostViewController : UIViewController {
             return
         }
         
-        ApplicationState.state.sendMessage("hostGame:\(userName),\(gameName)")
+        ApplicationState.state.sendMessage("hostGame:\(gameName),\(hostName)")
         
         DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(250), execute: {
             PlayersViewController.present(in: self.navigationController!, playerIsHost: true)
