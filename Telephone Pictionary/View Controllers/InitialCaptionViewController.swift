@@ -24,6 +24,7 @@ class InitialCaptionViewController : UIViewController {
     static func present(in navigationController: UINavigationController?) {
         let controller = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "initialCaption") as! InitialCaptionViewController
         navigationController?.pushViewController(controller, animated: true)
+         navigationController?.interactivePopGestureRecognizer?.isEnabled = false
     }
     
     

@@ -89,7 +89,7 @@
         <!--Join a Game-->
         <scene sceneID="Uge-6G-Gxa">
             <objects>
-                <viewController id="OjV-e2-7bs" customClass="JoinGameViewController" customModule="Telephone_Pictionary" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Join a Game" id="OjV-e2-7bs" customClass="JoinGameViewController" customModule="Telephone_Pictionary" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NRO-HH-pE2"/>
                         <viewControllerLayoutGuide type="bottom" id="WQM-0G-2ae"/>
@@ -258,7 +258,7 @@
                             <constraint firstItem="nLI-mt-Tom" firstAttribute="top" secondItem="YPg-bg-5oO" secondAttribute="bottom" id="P2C-9b-gZo"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="isl-QM-k0g">
+                    <navigationItem key="navigationItem" title="Host Game" id="isl-QM-k0g">
                         <barButtonItem key="backBarButtonItem" title="Back" id="Jea-9I-luG"/>
                     </navigationItem>
                     <connections>
@@ -481,6 +481,74 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FcR-eu-al4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5138" y="-9"/>
+        </scene>
+        <!--Gallery-->
+        <scene sceneID="EMG-5i-8ja">
+            <objects>
+                <pageViewController storyboardIdentifier="gallery" autoresizesArchivedViewToFullSize="NO" title="Gallery" transitionStyle="scroll" pageSpacing="15" navigationOrientation="horizontal" spineLocation="none" id="upd-8l-xt0" customClass="GalleryViewController" customModule="Telephone_Pictionary" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="Gallery" id="MZM-at-m7V">
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="DRb-D4-bBV">
+                            <connections>
+                                <action selector="donePressed:" destination="upd-8l-xt0" id="NCL-94-3Va"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="igl-RS-8V0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5137" y="749"/>
+        </scene>
+        <!--Your History-->
+        <scene sceneID="BYi-F8-3HB">
+            <objects>
+                <viewController storyboardIdentifier="galleryItem" title="Your History" id="2xV-Kr-FNX" customClass="GalleryItemViewController" customModule="Telephone_Pictionary" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sU7-nM-Eg6"/>
+                        <viewControllerLayoutGuide type="bottom" id="SLT-Dy-A1i"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="15e-ZR-xI4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="581-0J-xZN">
+                                <rect key="frame" x="36" y="315.5" width="303" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by gabor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K8l-bK-7ZT">
+                                <rect key="frame" x="272" y="620.5" width="87" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WxI-Zc-LYk">
+                                <rect key="frame" x="16" y="20" width="343" height="584.5"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="581-0J-xZN" firstAttribute="centerX" secondItem="15e-ZR-xI4" secondAttribute="centerX" id="19x-iu-oc8"/>
+                            <constraint firstItem="K8l-bK-7ZT" firstAttribute="top" secondItem="WxI-Zc-LYk" secondAttribute="bottom" constant="16" id="5gt-w0-Kf4"/>
+                            <constraint firstItem="WxI-Zc-LYk" firstAttribute="leading" secondItem="15e-ZR-xI4" secondAttribute="leadingMargin" id="C2e-KB-q68"/>
+                            <constraint firstItem="WxI-Zc-LYk" firstAttribute="trailing" secondItem="15e-ZR-xI4" secondAttribute="trailingMargin" id="C2l-EH-8dk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="K8l-bK-7ZT" secondAttribute="trailing" id="GhZ-XB-fTX"/>
+                            <constraint firstItem="581-0J-xZN" firstAttribute="centerY" secondItem="15e-ZR-xI4" secondAttribute="centerY" id="R4D-do-41h"/>
+                            <constraint firstItem="WxI-Zc-LYk" firstAttribute="top" secondItem="sU7-nM-Eg6" secondAttribute="bottom" id="Rwe-s1-dvE"/>
+                            <constraint firstItem="581-0J-xZN" firstAttribute="leading" secondItem="15e-ZR-xI4" secondAttribute="leadingMargin" constant="20" id="UWR-pN-qgf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="581-0J-xZN" secondAttribute="trailing" constant="20" id="Y3P-Sk-xPP"/>
+                            <constraint firstItem="SLT-Dy-A1i" firstAttribute="top" secondItem="K8l-bK-7ZT" secondAttribute="bottom" constant="20" id="sd2-5d-EFw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="authorLabel" destination="K8l-bK-7ZT" id="33g-7A-20P"/>
+                        <outlet property="imageView" destination="WxI-Zc-LYk" id="XoO-E5-99R"/>
+                        <outlet property="textLabel" destination="581-0J-xZN" id="pqK-jm-LRE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KYK-2N-gJD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5900" y="735.38230884557731"/>
         </scene>
         <!--Waiting-->
         <scene sceneID="9qm-nX-Mq5">

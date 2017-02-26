@@ -31,6 +31,7 @@ class DrawViewController : UIViewController, ACEDrawingViewDelegate {
     
     override func viewWillAppear(_ animated: Bool) {
         self.drawingView.delegate = self
+        self.drawingView.lineWidth = 2.0
         self.descriptionLabel.text = self.phrase
         
         self.drawingView.layer.borderColor = UIColor.gray.cgColor

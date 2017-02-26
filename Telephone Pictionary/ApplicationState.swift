@@ -84,14 +84,18 @@ class ApplicationState : NSObject, StreamDelegate {
         if responseComponents.count == 1 {
             response = responseComponents.first!
         } else {
-            responseComponents.forEach { self.receiveResponse(possibleResponse: $0 + "\r\n") }
+            responseComponents.forEach { component in
+                let componentWithNewline = "\(component)\r\n"
+                if response.contains(componentWithNewline) {
+                    self.receiveResponse(possibleResponse: componentWithNewline)
+                } else {
+                    self.receiveResponse(possibleResponse: component)
+                }
+            }
+            return
         }
         
-        if response.lengthOfBytes(using: .utf8) > 100 {
-            print(">>>>>> \"\(response.components(separatedBy: "/")[0])/<binary data>\"")
-        } else {
-            print(">>>>>> \"\(response)\"")
-        }
+        print(">>>>>> \"\(response)\"")
         
         
         //process the response

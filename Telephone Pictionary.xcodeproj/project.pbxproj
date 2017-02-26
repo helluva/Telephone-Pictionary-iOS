@@ -22,6 +22,7 @@
 		2E20D7D31E62614A00A3EA0A /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20D7D21E62614A00A3EA0A /* PlayersViewController.swift */; };
 		2E20D7D51E6268E200A3EA0A /* JoinGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20D7D41E6268E200A3EA0A /* JoinGameViewController.swift */; };
 		2E20D8041E627AAF00A3EA0A /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20D8031E627AAF00A3EA0A /* DrawViewController.swift */; };
+		2E9EC15E1E62EC0500350828 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EC15D1E62EC0500350828 /* GalleryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		2E20D7D21E62614A00A3EA0A /* PlayersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
 		2E20D7D41E6268E200A3EA0A /* JoinGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinGameViewController.swift; sourceTree = "<group>"; };
 		2E20D8031E627AAF00A3EA0A /* DrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
+		2E9EC15D1E62EC0500350828 /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 		5D80615105289CE75992E7BB /* Pods-Telephone Pictionary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telephone Pictionary.release.xcconfig"; path = "Pods/Target Support Files/Pods-Telephone Pictionary/Pods-Telephone Pictionary.release.xcconfig"; sourceTree = "<group>"; };
 		657A4D0AAD14D97821B72BA8 /* Pods_Telephone_Pictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Telephone_Pictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		968351DCA72771736571CC1E /* Pods-Telephone Pictionary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telephone Pictionary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Telephone Pictionary/Pods-Telephone Pictionary.debug.xcconfig"; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				2E20D8031E627AAF00A3EA0A /* DrawViewController.swift */,
 				2E1FF2A61E62B82300F031D8 /* WaitingViewController.swift */,
 				2E1FF2AA1E62C44400F031D8 /* CaptionWithImageViewController.swift */,
+				2E9EC15D1E62EC0500350828 /* GalleryViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 				2E20D7CF1E6258FF00A3EA0A /* NavigationController.swift in Sources */,
 				2E20D7C71E62496A00A3EA0A /* ApplicationState.swift in Sources */,
 				2E20D7B51E62491B00A3EA0A /* AppDelegate.swift in Sources */,
+				2E9EC15E1E62EC0500350828 /* GalleryViewController.swift in Sources */,
 				2E20D7D31E62614A00A3EA0A /* PlayersViewController.swift in Sources */,
 				2E20D7D51E6268E200A3EA0A /* JoinGameViewController.swift in Sources */,
 			);
