@@ -13,32 +13,23 @@ class CaptionWithImageViewController : UIViewController {
     
     //MARK: - Present
     
-    static func present(in navigationController: UINavigationController?, withEncodedImage encodedImage: String) {
+    static func present(in navigationController: UINavigationController?, withImage image: UIImage?) {
         let controller = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "captionWithImage") as! CaptionWithImageViewController
         
-        controller.encodedImage = encodedImage
+        controller.image = image
         navigationController?.pushViewController(controller, animated: true)
     }
     
     
     //MARK: - View Setup
     
-    var encodedImage = ""
+    var image: UIImage?
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var phraseField: UITextField!
     @IBOutlet weak var imageViewBottom: NSLayoutConstraint!
     
     override func viewWillAppear(_ animated: Bool) {
-        
-        encodedImage = encodedImage.replacingOccurrences(of: "~", with: "/")
-        
-        while encodedImage.lengthOfBytes(using: .utf8) % 4 != 0 {
-            encodedImage += "="
-        }
-    
-        guard let data = Data(base64Encoded: encodedImage, options: []) else { return }
-        
-        imageView.image = UIImage(data: data)
+        self.imageView.image = image
     }
     
     override func viewDidLoad() {

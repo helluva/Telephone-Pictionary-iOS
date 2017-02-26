@@ -47,7 +47,6 @@ class DrawViewController : UIViewController, ACEDrawingViewDelegate {
         let base64 = data!.base64EncodedData()
         let string = String(data: base64, encoding: .utf8)!.replacingOccurrences(of: "\n", with: "").replacingOccurrences(of: "/", with: "~")
         
-        print(string)
         ApplicationState.state.sendMessage("provideImage:\(string)")
         WaitingViewController.present(in: self.navigationController)
         
