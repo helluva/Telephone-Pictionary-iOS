@@ -88,7 +88,7 @@ class ApplicationState : NSObject, StreamDelegate {
     
     //MARK: - Requests and Listeners
     
-    func sendMessage(_ message: String) -> String {
+    @discardableResult func sendMessage(_ message: String) -> String {
         let id = "\(Date().timeIntervalSince1970)"
         let messageWithId = "\(id)/\(message)"
         

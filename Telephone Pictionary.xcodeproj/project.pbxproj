@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		2E20D7B51E62491B00A3EA0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20D7B41E62491B00A3EA0A /* AppDelegate.swift */; };
-		2E20D7B71E62491B00A3EA0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20D7B61E62491B00A3EA0A /* ViewController.swift */; };
 		2E20D7BA1E62491B00A3EA0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E20D7B81E62491B00A3EA0A /* Main.storyboard */; };
 		2E20D7BC1E62491B00A3EA0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E20D7BB1E62491B00A3EA0A /* Assets.xcassets */; };
 		2E20D7BF1E62491B00A3EA0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E20D7BD1E62491B00A3EA0A /* LaunchScreen.storyboard */; };
 		2E20D7C71E62496A00A3EA0A /* ApplicationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20D7C61E62496A00A3EA0A /* ApplicationState.swift */; };
+		2E20D7CE1E6258FF00A3EA0A /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20D7CC1E6258FF00A3EA0A /* InitialViewController.swift */; };
+		2E20D7CF1E6258FF00A3EA0A /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20D7CD1E6258FF00A3EA0A /* NavigationController.swift */; };
+		2E20D7D11E625BD700A3EA0A /* HostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20D7D01E625BD700A3EA0A /* HostViewController.swift */; };
+		2E20D7D31E62614A00A3EA0A /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20D7D21E62614A00A3EA0A /* PlayersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2E20D7B11E62491B00A3EA0A /* Telephone Pictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Telephone Pictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E20D7B41E62491B00A3EA0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2E20D7B61E62491B00A3EA0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2E20D7B91E62491B00A3EA0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E20D7BB1E62491B00A3EA0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E20D7BE1E62491B00A3EA0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E20D7C01E62491B00A3EA0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E20D7C61E62496A00A3EA0A /* ApplicationState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationState.swift; sourceTree = "<group>"; };
+		2E20D7CC1E6258FF00A3EA0A /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		2E20D7CD1E6258FF00A3EA0A /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		2E20D7D01E625BD700A3EA0A /* HostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostViewController.swift; sourceTree = "<group>"; };
+		2E20D7D21E62614A00A3EA0A /* PlayersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,26 @@
 		2E20D7B31E62491B00A3EA0A /* Telephone Pictionary */ = {
 			isa = PBXGroup;
 			children = (
-				2E20D7B41E62491B00A3EA0A /* AppDelegate.swift */,
-				2E20D7B61E62491B00A3EA0A /* ViewController.swift */,
 				2E20D7C61E62496A00A3EA0A /* ApplicationState.swift */,
+				2E20D7CB1E6258FF00A3EA0A /* View Controllers */,
+				2E20D7B41E62491B00A3EA0A /* AppDelegate.swift */,
 				2E20D7B81E62491B00A3EA0A /* Main.storyboard */,
 				2E20D7BB1E62491B00A3EA0A /* Assets.xcassets */,
 				2E20D7BD1E62491B00A3EA0A /* LaunchScreen.storyboard */,
 				2E20D7C01E62491B00A3EA0A /* Info.plist */,
 			);
 			path = "Telephone Pictionary";
+			sourceTree = "<group>";
+		};
+		2E20D7CB1E6258FF00A3EA0A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2E20D7CC1E6258FF00A3EA0A /* InitialViewController.swift */,
+				2E20D7CD1E6258FF00A3EA0A /* NavigationController.swift */,
+				2E20D7D01E625BD700A3EA0A /* HostViewController.swift */,
+				2E20D7D21E62614A00A3EA0A /* PlayersViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E20D7CE1E6258FF00A3EA0A /* InitialViewController.swift in Sources */,
+				2E20D7D11E625BD700A3EA0A /* HostViewController.swift in Sources */,
+				2E20D7CF1E6258FF00A3EA0A /* NavigationController.swift in Sources */,
 				2E20D7C71E62496A00A3EA0A /* ApplicationState.swift in Sources */,
-				2E20D7B71E62491B00A3EA0A /* ViewController.swift in Sources */,
 				2E20D7B51E62491B00A3EA0A /* AppDelegate.swift in Sources */,
+				2E20D7D31E62614A00A3EA0A /* PlayersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
